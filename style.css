@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Roboto-font */
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #333;
+    padding: 0;
+    text-align: center;
+}
+
+/* Headers*/
+header {
+    background-color: #0b1620;
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*hero*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b1620;
+    color: white;
+    padding: 4rem;
+    max-width: 1200px;
+    margin: 0rem auto;
+    border-radius: 8px;
+    gap: 2rem;
+}
+
+.hero-content {
+    max-width: 60%;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+hero-content p {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content button {
+    background-color: #047af8;
+    color: white;
+    padding: 0.3rem 1.1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+
+.hero-image img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.hero-image .image-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #cfcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333232;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+.content-section {
+    max-width: 1200px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.content-box:first-of-type {
+    margin-left: 6rem;
+}
+
+/*content section*/
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+.content-box .box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #047af8;
+    border-radius: 8px;
+}
+
+.content-box p {
+    max-width: 50%;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 6rem;
+
+}
+
+
+/*Quote*/
+.quote {
+    background-color: #cdd2d6;
+    padding: 3rem;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.quote p {
+    max-width:500px;
+    margin: 0 auto;
+}
+
+.quote p:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+
+/*Call to action! It's time!*/
+.action {
+    background-color: #047af8;
+    padding: 1.75rem;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.action-content {
+    text-align: left;
+    flex: 1;
+}
+
+.action-content h2 {
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+.action-content p {
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
+}
+
+.action button {
+    background-color: white;
+    color: #047af8;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    align-self: center;
+}
+
+/*footer*/
+footer {
+    background-color: #0b1620;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+/*second.html*/
+.posts-section {
+    max-width: 1200px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.post-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #047af8;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    background-color: white;
+}
+
+.posts-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.post-body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.weather-section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.weather-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.weather-box {
+    padding: 1rem;
+    border: 2px solid #047af8;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+}
